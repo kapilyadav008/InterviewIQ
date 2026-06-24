@@ -15,12 +15,6 @@ const Home = () => {
 
     const navigate = useNavigate()
 
-    // const handleGenerateReport = async () => {
-    //     const resumeFile = resumeInputRef.current.files[0]
-    //     const data = await generateReport({ jobDescription, selfDescription, resumeFile })
-    //     navigate(`/interview/${data._id}`)
-    // }
-
     const handleGenerateReport = async () => {
         const resumeFile = resumeInputRef.current?.files?.[0]
 
@@ -50,16 +44,6 @@ const Home = () => {
         <div className='home-page'>
 
             {/* Page Header */}
-            {/* <header className='page-header'>
-                <h1>
-                    Create Your <span className='highlight'>InterviewIQ Strategy</span>
-                </h1>
-
-                <p>
-                    Upload your resume and target job description to generate a personalized AI-powered interview preparation plan.
-                </p>
-            </header> */}
-
             <header className='page-header'>
 
                 <button
