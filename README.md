@@ -7,53 +7,74 @@ An AI-powered interview preparation platform that helps candidates prepare smart
 ## 🌟 Features
 
 ### 🔐 Authentication
-- User Registration
-- User Login
-- Secure JWT Authentication
-- Logout Functionality
+
+* User Registration
+* User Login
+* JWT-Based Authentication
+* Secure Logout
 
 ### 📄 Resume Analysis
-- Upload Resume (PDF/DOCX)
-- Resume Parsing
-- Profile Analysis
+
+* Upload Resume (PDF)
+* Resume Parsing
+* Resume Profile Analysis
+* Optional Self Description Support
 
 ### 🤖 AI Interview Preparation
-- AI-generated Technical Questions
-- AI-generated Behavioral Questions
-- Match Score Calculation
-- Skill Gap Detection
-- Personalized Preparation Plan
+
+* AI-Generated Technical Questions
+* AI-Generated Behavioral Questions
+* Match Score Calculation
+* Skill Gap Detection
+* Personalized Preparation Plan
 
 ### 📚 Interview History
-- View Previously Generated Reports
-- Access Reports Anytime
-- Match Score Tracking
+
+* View Previously Generated Reports
+* Access Reports Anytime
+* Match Score Tracking
 
 ### 📥 Resume Builder
-- ATS-Friendly Resume Generation
-- Download Resume as PDF
+
+* ATS-Friendly Resume Generation
+* Download Resume as PDF
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- React.js
-- React Router
-- SCSS
-- Axios
-- Vite
+
+* React.js
+* React Router
+* Axios
+* SCSS
+* Vite
 
 ### Backend
-- Node.js
-- Express.js
-- MongoDB
-- JWT Authentication
-- Multer
-- Puppeteer
+
+* Node.js
+* Express.js
+* MongoDB
+* JWT Authentication
+* Multer
+* Puppeteer
 
 ### AI
-- Google Gemini API
+
+* Google Gemini API
+
+---
+
+## 🌐 Live Demo
+
+### Frontend
+
+https://interview-iq-lac.vercel.app
+
+### Backend
+
+https://interviewiq-backend-dmz0.onrender.com/
 
 ---
 
@@ -94,7 +115,7 @@ Technical questions, behavioral questions, match score analysis, skill gaps, and
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/InterviewIQ.git
+git clone https://github.com/kapilyadav008/InterviewIQ.git
 cd InterviewIQ
 ```
 
@@ -107,16 +128,18 @@ cd Backend
 npm install
 ```
 
-Create a `.env` file inside Backend:
+Create a `.env` file inside the Backend directory:
 
 ```env
 PORT=3000
 
-MONGODB_URI=your_mongodb_connection_string
+MONGO_URI=your_mongodb_connection_string
 
 JWT_SECRET=your_jwt_secret
 
 GOOGLE_GENAI_API_KEY=your_gemini_api_key
+
+CLIENT_URL=http://localhost:5173
 ```
 
 Run Backend:
@@ -140,16 +163,18 @@ npm run dev
 ## 💡 How It Works
 
 1. Register/Login
-2. Upload Resume
-3. Paste Target Job Description
-4. AI Analyzes Candidate Profile
-5. Generates:
-   - Match Score
-   - Technical Questions
-   - Behavioral Questions
-   - Skill Gaps
-   - Preparation Roadmap
-6. Download ATS-Friendly Resume PDF
+2. Upload Resume (Optional)
+3. Add Self Description (Optional)
+4. Paste Target Job Description
+5. AI Analyzes Candidate Profile
+6. Generates:
+
+   * Match Score
+   * Technical Questions
+   * Behavioral Questions
+   * Skill Gaps
+   * Preparation Roadmap
+7. Download ATS-Friendly Resume PDF
 
 ---
 
@@ -179,15 +204,31 @@ INTERVIEWIQ
 
 ---
 
+## 🔑 Environment Variables
+
+### Backend
+
+Required environment variables:
+
+```env
+PORT
+MONGO_URI
+JWT_SECRET
+GOOGLE_GENAI_API_KEY
+CLIENT_URL
+```
+
+---
+
 ## 🎯 Future Improvements
 
-- Mock Interview Chatbot
-- Voice-Based Interviews
-- AI Feedback on Answers
-- Interview Analytics Dashboard
-- Resume Version History
-- Dark / Light Theme Toggle
-- Company-Specific Interview Preparation
+* Mock Interview Chatbot
+* Voice-Based Interviews
+* AI Feedback on Answers
+* Interview Analytics Dashboard
+* Resume Version History
+* Dark / Light Theme Toggle
+* Company-Specific Interview Preparation
 
 ---
 
@@ -195,10 +236,15 @@ INTERVIEWIQ
 
 ### Kapil Kumar
 
+B.Tech CSE (AI & ML) | Aspiring Full Stack Web Developer
+
 ### Connect With Me
 
-- LinkedIn: https://www.linkedin.com/in/kapil-kumar-746854339/
-- GitHub: https://github.com/kapilyadav008
+LinkedIn:
+https://www.linkedin.com/in/kapil-kumar-746854339/
+
+GitHub:
+https://github.com/kapilyadav008
 
 ---
 
